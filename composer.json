@@ -1,0 +1,40 @@
+{
+  "name": "webv/skeleton",
+  "description": "<description>",
+  "version": "v1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "WEBversiert",
+      "role": "Manufacturer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WebvSkeleton\\": "src/"
+    }
+  },
+  "require": {
+    "shopware/core": "6.6.*"
+  },
+  "extra": {
+    "shopware-plugin-class": "WebvSkeleton\\WebvSkeleton",
+    "label": {
+      "de-DE": "<label here>",
+      "en-GB": "<label here>"
+    },
+    "description": {
+      "de-DE": "<decription here>",
+      "en-GB": "<decription here>"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://store.shopware.com/webversiert.html",
+      "en-GB": "https://store.shopware.com/webversiert.html"
+    },
+    "supportLink": {
+      "de-DE": "https://webversiert.de",
+      "en-GB": "https://webversiert.de"
+    }
+  }
+}
